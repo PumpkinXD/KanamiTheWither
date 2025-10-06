@@ -1,0 +1,11 @@
+{
+  "entity.wither.ambient": {
+    "replace": true
+  },
+  "entity.wither.death": {
+    "replace": true
+  },
+  "mob.wither.spawn": {
+    "replace": true
+  }
+}
