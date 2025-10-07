@@ -13,8 +13,12 @@ plugins {
     base
 }
 
+/**
+ * taskName : folderName
+ */
 val buildPackTasks: Map<String, String> = mapOf(
-    "buildZH" to "KanamiTheWitherZH"
+    "buildZH" to "KanamiTheWitherZH",
+    //"buildLegacyZH" to "KanamiTheWitherLegacyZH"
 )
 
 tasks.build {

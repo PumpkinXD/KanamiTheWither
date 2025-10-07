@@ -8,7 +8,8 @@
         "pitch": 1,
         "stream": true
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wither.ambient"
   },
   "entity.wither.death": {
     "replace": true,
@@ -18,7 +19,8 @@
         "type": "event",
         "stream": true
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wither.death"
   },
   "entity.wither.hurt": {
     "replace": true,
@@ -27,7 +29,16 @@
         "name": "entity.kanami.hurt",
         "type": "event"
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wither.hurt"
+  },
+  "entity.wither.shoot": {
+    "replace": true,
+    "sounds": [
+      "mob/wither/shoot"
+    ],
+    "volume": 0.03125,
+    "subtitle": "subtitles.entity.wither.shoot"
   },
   "entity.kanami.ambient": {
     "replace": true,
@@ -47,7 +58,8 @@
       "strinova:kanami/idle/cn_vox_kanami_bpchat_078_red01",
       "strinova:kanami/idle/cn_vox_kanami_bpchat_079",
       "strinova:kanami/idle/cn_vox_kanami_bpchat_079_red01"
-    ]
+    ],
+    "volume": 4
   },
   "entity.kanami.death": {
     "replace": true,
@@ -66,7 +78,8 @@
       "strinova:kanami/death/cn_vox_kanami_bpchat_127_red01",
       "strinova:kanami/death/cn_vox_kanami_bpchat_141",
       "strinova:kanami/death/cn_vox_kanami_bpchat_141_red01"
-    ]
+    ],
+    "volume": 4
   },
   "entity.kanami.hurt": {
     "replace": true,
@@ -77,6 +90,7 @@
       "strinova:kanami/hurt/cn_vox_kanami_bpchat_108_red01",
       "strinova:kanami/hurt/cn_vox_kanami_bpchat_108_red01_b",
       "strinova:kanami/hurt/cn_vox_kanami_bpchat_108_red01_c"
-    ]
+    ],
+    "volume": 4
   }
 }
