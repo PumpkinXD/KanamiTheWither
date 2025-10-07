@@ -2,9 +2,9 @@
  *
  * @author PumpkinXD
  * @description Gradle build configuration for packaging Minecraft resource packs.
- *              Modified from: 
+ *              Modified from:
  *                 https://github.com/ILikePlayingGames/FancyWarpMenuResourcePacks/blob/c2b422d1fb7e4df4268815c8d1bf9b5f9de49629/build.gradle.kts
- * 
+ *
  */
 
 import groovy.lang.Closure
