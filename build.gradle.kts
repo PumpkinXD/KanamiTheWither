@@ -18,7 +18,15 @@ plugins {
  */
 val buildPackTasks: Map<String, String> = mapOf(
     "buildZH" to "KanamiTheWitherZH",
-    //"buildLegacyZH" to "KanamiTheWitherLegacyZH"
+//    "buildEN" to "KanamiTheWitherEN"
+)
+
+/**
+ * taskName : legacyFolderName : modernFolderName
+ */
+val buildLegacyPackTasks: List<Triple<String, String, String>> = listOf(
+    Triple("buildLegacyZH", "KanamiTheWitherLegacyZH", "KanamiTheWitherZH")
+//    Triple("buildLegacyEN", "KanamiTheWitherLegacyEN", "KanamiTheWitherEN")
 )
 
 tasks.build {
@@ -30,6 +38,21 @@ for (taskEntry in buildPackTasks) {
         configure(getTexturePackConfiguration(taskEntry.value))
     }
 }
+
+for (taskEntry in buildLegacyPackTasks) {
+    tasks.register<Zip>(taskEntry.first) {
+        group = "build resource pack"
+        archiveBaseName.set(taskEntry.second)
+        destinationDirectory.set(layout.buildDirectory)
+        from(layout.projectDirectory.dir("src/${taskEntry.second}"))
+        from(layout.projectDirectory.dir("src/${taskEntry.third}/assets/strinova"))
+        {
+                into("assets/strinova")
+        }
+    }
+}
+
+
 
 fun getTexturePackConfiguration(texturePackName: String): Closure<Any?> {
     return closureOf<Zip> {
