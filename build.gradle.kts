@@ -47,7 +47,7 @@ for (taskEntry in buildLegacyPackTasks) {
         from(layout.projectDirectory.dir("src/${taskEntry.second}"))
         from(layout.projectDirectory.dir("src/${taskEntry.third}/assets/strinova"))
         {
-                into("assets/strinova")
+            into("assets/strinova")
         }
     }
 }
