@@ -1,0 +1,100 @@
+{
+  "mob.wither.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "entity.kanami.death",
+        "type": "event",
+        "stream": true
+      }
+    ]
+  },
+  "mob.wither.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "entity.kanami.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "mob.wither.idle": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "entity.kanami.ambient",
+        "type": "event",
+        "pitch": 1,
+        "stream": true
+      }
+    ]
+  },
+  "mob.wither.shoot": {
+    "category": "hostile",
+    "sounds": [
+      "mob/wither/shoot"
+    ]
+  },
+  "mob.wither.spawn": {
+    "category": "hostile",
+    "sounds": [
+      "mob/wither/spawn"
+    ]
+  },
+  "entity.kanami.ambient": {
+    "replace": true,
+    "sounds": [
+      "strinova:kanami/idle/en_vox_kanami_bpchat_072",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_072_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_073",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_073_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_074",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_074_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_075",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_075_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_077",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_077_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_078",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_078_red01",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_079",
+      "strinova:kanami/idle/en_vox_kanami_bpchat_079_red01"
+    ],
+    "volume": 4
+  },
+  "entity.kanami.death": {
+    "replace": true,
+    "sounds": [
+      "strinova:kanami/death/en_vox_kanami_bpchat_121",
+      "strinova:kanami/death/en_vox_kanami_bpchat_121_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_122",
+      "strinova:kanami/death/en_vox_kanami_bpchat_122_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_123",
+      "strinova:kanami/death/en_vox_kanami_bpchat_123_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_124",
+      "strinova:kanami/death/en_vox_kanami_bpchat_124_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_125",
+      "strinova:kanami/death/en_vox_kanami_bpchat_125_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_127",
+      "strinova:kanami/death/en_vox_kanami_bpchat_127_red01",
+      "strinova:kanami/death/en_vox_kanami_bpchat_141",
+      "strinova:kanami/death/en_vox_kanami_bpchat_141_red01"
+    ],
+    "volume": 4
+  },
+  "entity.kanami.hurt": {
+    "replace": true,
+    "sounds": [
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108",
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108_b",
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108_c",
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108_red01",
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108_red01_b",
+      "strinova:kanami/hurt/en_vox_kanami_bpchat_108_red01_c"
+    ],
+    "volume": 4
+  }
+}
+

@@ -18,15 +18,15 @@ plugins {
  */
 val buildPackTasks: Map<String, String> = mapOf(
     "buildZH" to "KanamiTheWitherZH",
-//    "buildEN" to "KanamiTheWitherEN"
+    "buildEN" to "KanamiTheWitherEN"
 )
 
 /**
  * taskName : legacyFolderName : modernFolderName
  */
 val buildLegacyPackTasks: List<Triple<String, String, String>> = listOf(
-    Triple("buildLegacyZH", "KanamiTheWitherLegacyZH", "KanamiTheWitherZH")
-//    Triple("buildLegacyEN", "KanamiTheWitherLegacyEN", "KanamiTheWitherEN")
+    Triple("buildLegacyZH", "KanamiTheWitherLegacyZH", "KanamiTheWitherZH"),
+    Triple("buildLegacyEN", "KanamiTheWitherLegacyEN", "KanamiTheWitherEN")
 )
 
 tasks.build {

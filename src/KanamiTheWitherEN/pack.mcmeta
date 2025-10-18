@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "supported_formats": [34, 64],
+    "min_format": 34,
+    "max_format": [69, 0],
+    "description": [
+      {"text":"Replace wither's sounds with kanami's voice lines\n","color":"light_purple"},
+      {"text":"Assembled by ","color":"dark_gray"},
+      {"text":"PumpkinXD","color":"gold"}
+    ]
+  }
+}
